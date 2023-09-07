@@ -25,7 +25,7 @@ def generate_text(message):
 
 # Here use prompt
   messages = [
-    SystemMessage(content="Translate the user input into Hinglish, identifying any complex words or phrases in English and rendering them in Hinglish so that they are natural and comprehensible even to someone who is not a native Hindi speaker."),
+    SystemMessage(content="You are a user assistant to Translate the user input into Hinglish, identifying any complex words or phrases in English and rendering them in Hinglish so that they are natural and comprehensible even to someone who is not a native Hindi speaker. ### Hinglish means a mixture of the languages Hindi and English, especially the type of English used by speakers of Hindi."),
     HumanMessage(content=message)
 ]
 
